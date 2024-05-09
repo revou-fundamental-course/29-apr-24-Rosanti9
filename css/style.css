@@ -22,27 +22,25 @@
 nav {
   margin: 8px;
 }
-/* Style untuk tautan di dalam navbar */
+
 .navigator-container a {
-  border-radius: 5px; /* Sudut border */
+  border-radius: 5px; 
   border: 2px solid #ddd;
-  color: #333; /* Warna teks tautan */
-  text-decoration: none; /* Menghapus garis bawah pada tautan */
-  padding: 10px 15px; /* Padding untuk memberikan ruang di sekitar teks tautan */
-  margin: 0 4px; /* Jarak antara tautan */
+  color: #333;
+  text-decoration: none; 
+  padding: 10px 15px; 
+  margin: 0 4px; 
 }
 
-/* Style untuk tautan yang dihover di dalam nav.navigator-container */
 .navigator-container a:hover {
-  background-color: #ddd; /* Warna latar belakang saat tautan dihover */
-  border-radius: 5px; /* Sudut border */
+  background-color: #ddd; 
+  border-radius: 5px; 
 }
 
-/* Style untuk tautan aktif di dalam nav.navigator-container */
 .navigator-container a.active {
-  background-color: #555; /* Warna latar belakang saat tautan aktif */
-  color: #fff; /* Warna teks tautan aktif */
-  border-radius: 5px; /* Sudut border */
+  background-color: #555;
+  color: #fff; 
+  border-radius: 5px; 
 }
 
 .navigation-icon {
@@ -183,25 +181,23 @@ span {
   margin-top: 8px;
   width: 100%;
   margin-bottom: 1rem;
-  background-color: #333; /* Warna latar belakang */
-  color: white; /* Warna teks */
-  padding: 10px 20px; /* Padding */
-  border: none; /* Menghapus border */
-  border-radius: 4px; /* Border radius */
-  cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
-  font-size: 16px; /* Ukuran font */
-  font-weight: bold; /* Ketebalan font */
-  transition: background-color 0.3s; /* Efek transisi untuk perubahan warna latar belakang */
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
-/* Hover effect */
 button:hover {
-  background-color: #494949; /* Warna latar belakang saat dihover */
+  background-color: #494949;
 }
 
-/* Active effect */
 button:active {
-  background-color: #333333; /* Warna latar belakang saat tombol ditekan */
+  background-color: #333333;
 }
 
 .our-package {
@@ -233,14 +229,12 @@ button:active {
   width: 100%;
   margin: 8px;
   border: 2px sllid black;
-  /* background-color: #39843f; */
   padding: 2rem;
 }
 
 .item > img {
   padding: 4px;
   border-radius: 50%;
-  /* background-color: #eee; */
   width: 60px;
   height: 60px;
   margin-right: 8px;
@@ -268,31 +262,28 @@ button:active {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1rem;
-  background-color: #333; /* Warna latar belakang */
-  color: white; /* Warna teks */
-  padding: 10px 20px; /* Padding */
-  border: none; /* Menghapus border */
-  border-radius: 4px; /* Border radius */
-  cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
-  font-size: 16px; /* Ukuran font */
-  font-weight: bold; /* Ketebalan font */
-  transition: background-color 0.3s; /* Efek transisi untuk perubahan warna latar belakang */
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
-/* Hover effect */
 button:hover {
-  background-color: #494949; /* Warna latar belakang saat dihover */
+  background-color: #494949;
 }
 
-/* Active effect */
 button:active {
-  background-color: #333333; /* Warna latar belakang saat tombol ditekan */
+  background-color: #333333;
 }
 
 footer {
-  background-color: #333; /* Warna latar belakang */
-  color: #fff; /* Warna teks */
-  padding: 20px; /* Padding untuk memberikan ruang di sekitar konten */
-  text-align: center; /* Teks diatur di tengah */
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
-
