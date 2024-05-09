@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  top: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navigator-container {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  z-index: 999;
+  position: fixed;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  margin: 8px;
+}
+/* Style untuk tautan di dalam navbar */
+.navigator-container a {
+  border-radius: 5px; /* Sudut border */
+  border: 2px solid #ddd;
+  color: #333; /* Warna teks tautan */
+  text-decoration: none; /* Menghapus garis bawah pada tautan */
+  padding: 10px 15px; /* Padding untuk memberikan ruang di sekitar teks tautan */
+  margin: 0 4px; /* Jarak antara tautan */
+}
+
+/* Style untuk tautan yang dihover di dalam nav.navigator-container */
+.navigator-container a:hover {
+  background-color: #ddd; /* Warna latar belakang saat tautan dihover */
+  border-radius: 5px; /* Sudut border */
+}
+
+/* Style untuk tautan aktif di dalam nav.navigator-container */
+.navigator-container a.active {
+  background-color: #555; /* Warna latar belakang saat tautan aktif */
+  color: #fff; /* Warna teks tautan aktif */
+  border-radius: 5px; /* Sudut border */
+}
+
+.navigation-icon {
+  background-image: url();
+  border: 1px solid black;
+  height: 32px;
+  width: 32px;
+  background-size: cover;
+}
+
+img {
+  width: 32px;
+}
+
+.content-container > header {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+article {
+  margin: 2rem;
+}
+
+.core-content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.core-content1 {
+  margin-right: 2rem;
+}
+
+.core-item {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 480px;
+  padding-top: 2rem;
+  margin-right: 8px;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px #999;
+  background-color: #eee;
+  transition: transform 0.3s ease;
+}
+
+.core-item > header {
+  text-align: center;
+  font-size: 28px;
+}
+
+.core-item > p {
+  margin-left: 1rem;
+  margin-bottom: 0;
+  width: 95%;
+}
+
+span {
+  color: #765827;
+}
+
+.core-item:hover {
+  transform: translateY(-5px);
+}
+
+.core-item-content {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem 2rem 2rem 2rem;
+  justify-content: center;
+}
+
+.core-item-content > img {
+  box-shadow: 0px 2px 4px #999;
+  margin: 8px;
+  width: 200px;
+  display: block;
+  border-radius: 10%;
+}
+
+.core-item > p {
+  margin-top: 4px;
+  text-align: center;
+}
+
+.item-right {
+  transition: transform 0.3s ease;
+  box-shadow: 0px 4px 8px #999;
+  background-color: #eee;
+  border: 0;
+  height: 480px;
+  width: 480px;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.item-right:hover {
+  transform: translateY(-5px);
+}
+
+.item-form {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.item-form > label {
+  margin-bottom: 4px;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.item-form > input {
+  outline: 1px solid #999;
+  height: 32px;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 1px solid darkgray;
+  border-radius: 4px;
+}
+
+.item-form > input::placeholder {
+  padding: 4px;
+}
+
+.item-form > select {
+  outline: 1px solid #999;
+  height: 32px;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 1px solid darkgray;
+  border-radius: 4px;
+}
+
+.item-right > button {
+  margin-top: 8px;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #333; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Menghapus border */
+  border-radius: 4px; /* Border radius */
+  cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+  font-size: 16px; /* Ukuran font */
+  font-weight: bold; /* Ketebalan font */
+  transition: background-color 0.3s; /* Efek transisi untuk perubahan warna latar belakang */
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #494949; /* Warna latar belakang saat dihover */
+}
+
+/* Active effect */
+button:active {
+  background-color: #333333; /* Warna latar belakang saat tombol ditekan */
+}
+
+.our-package {
+  height: 180px;
+  width: 100%;
+  align-content: center;
+  background-color: #ddd;
+}
+
+.our-package > h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.our-package-content {
+  margin: 2rem;
+}
+
+.our-package-item {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 8px;
+  border: 2px sllid black;
+  /* background-color: #39843f; */
+  padding: 2rem;
+}
+
+.item > img {
+  padding: 4px;
+  border-radius: 50%;
+  /* background-color: #eee; */
+  width: 60px;
+  height: 60px;
+  margin-right: 8px;
+}
+
+.item-text > p {
+  margin-top: 4px;
+}
+
+.end-content {
+  text-align: center;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.end-content > p {
+  margin: 2rem;
+}
+
+.end-content > button {
+  margin-top: 8px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  background-color: #333; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Menghapus border */
+  border-radius: 4px; /* Border radius */
+  cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+  font-size: 16px; /* Ukuran font */
+  font-weight: bold; /* Ketebalan font */
+  transition: background-color 0.3s; /* Efek transisi untuk perubahan warna latar belakang */
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #494949; /* Warna latar belakang saat dihover */
+}
+
+/* Active effect */
+button:active {
+  background-color: #333333; /* Warna latar belakang saat tombol ditekan */
+}
+
+footer {
+  background-color: #333; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  padding: 20px; /* Padding untuk memberikan ruang di sekitar konten */
+  text-align: center; /* Teks diatur di tengah */
+}
+
